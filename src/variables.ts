@@ -1,6 +1,6 @@
-export const botname = "Marvis Futaru";
-export const prefix = ">";
-export const vips = [""];
+export const BOTNAME = "Marvis Futaru";
+export const PREFIX = ">";
+export const VIPS = [""];
 
 export const badwords = [
   "sapak",
@@ -38,36 +38,36 @@ export const generateAnsReply = (answer: string): string => {
 };
 
 export const helpStr = `____________________________
-${botname}
+${BOTNAME}
 ___________________________
 Commands:
-• ${prefix}help
+• ${PREFIX}help
 ----------------------
-• ${prefix}verse
+• ${PREFIX}verse
 ----------------------
-• ${prefix}wiki [search parameter]
+• ${PREFIX}wiki [search parameter]
 ----------------------
-• ${prefix}motivation
+• ${PREFIX}motivation
 ----------------------
-• ${prefix}meme
+• ${PREFIX}meme
 ----------------------
-• ${prefix}marvis [msg]
+• ${PREFIX}marvis [msg]
 ----------------------
-• ${prefix}jobseek [position] [place(optional)]
+• ${PREFIX}jobseek [position] [place(optional)]
 ----------------------
-• ${prefix}music [title]
+• ${PREFIX}music [title]
 ----------------------
-• ${prefix}solve [exp]
+• ${PREFIX}solve [exp]
 ----------------------
-• ${prefix}derivative [exp]
+• ${PREFIX}derivative [exp]
 ----------------------
-• ${prefix}simplify [exp]
+• ${PREFIX}simplify [exp]
 ----------------------
-• ${prefix}mean [dataset]
+• ${PREFIX}mean [dataset]
 ----------------------
-• ${prefix}median [dataset]
+• ${PREFIX}median [dataset]
 ----------------------
-• ${prefix}mode [dataset]
+• ${PREFIX}mode [dataset]
 ----------------------
 Created by: @Mart Salazar
 https://github.com/mart-anthony-stark
