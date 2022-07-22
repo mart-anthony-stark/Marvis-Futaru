@@ -54,6 +54,7 @@ login(
                 true
               );
             }
+            // Execute mapped function to specific command
             if (!!commands[cmd]) {
               commands[cmd](input, api, event);
             } else {
