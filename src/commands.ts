@@ -1,4 +1,10 @@
-import { bibleVerse, generateMeme, motivation, wikiSearch } from "./utils";
+import {
+  bibleVerse,
+  chatbot,
+  generateMeme,
+  motivation,
+  wikiSearch,
+} from "./utils";
 import { help } from "./utils/help";
 import { PREFIX } from "./variables";
 
@@ -8,4 +14,5 @@ export const commands = {
   [PREFIX + "wiki"]: wikiSearch,
   [PREFIX + "meme"]: generateMeme,
   [PREFIX + "motivation"]: motivation,
+  [PREFIX + "marvis"]: chatbot,
 };
