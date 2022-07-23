@@ -1,6 +1,8 @@
+import { bibleVerse } from "./utils";
 import { help } from "./utils/help";
-import { prefix } from "./variables";
+import { PREFIX } from "./variables";
 
 export const commands = {
-  [prefix + "help"]: help,
+  [PREFIX + "help"]: help,
+  [PREFIX + "verse"]: bibleVerse,
 };
