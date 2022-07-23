@@ -6,3 +6,4 @@ export * from "./verse";
 export * from "./wiki";
 export * from "./meme";
 export * from "./motivate";
+export * from "./chatbot";
