@@ -15,7 +15,7 @@ const getVerse = async () => {
     });
   return data;
 };
-const bibleVerse = (input: string, api: any, event: FCAEvent) => {
+export const bibleVerse = (input: string, api: any, event: FCAEvent) => {
   const verse = getVerse();
   verse
     .then((response) => {
