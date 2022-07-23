@@ -4,3 +4,4 @@ export * from "./activation";
 export * from "./help";
 export * from "./verse";
 export * from "./wiki";
+export * from "./meme";
