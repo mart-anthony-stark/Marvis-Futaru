@@ -2,6 +2,7 @@ import {
   bibleVerse,
   chatbot,
   generateMeme,
+  jobseek,
   motivation,
   wikiSearch,
 } from "./utils";
@@ -15,4 +16,5 @@ export const commands = {
   [PREFIX + "meme"]: generateMeme,
   [PREFIX + "motivation"]: motivation,
   [PREFIX + "marvis"]: chatbot,
+  [PREFIX + "jobseek"]: jobseek,
 };
