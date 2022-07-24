@@ -7,3 +7,4 @@ export * from "./wiki";
 export * from "./meme";
 export * from "./motivate";
 export * from "./chatbot";
+export * from "./jobseek";
